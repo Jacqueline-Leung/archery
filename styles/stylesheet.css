@@ -1,0 +1,87 @@
+/* Global styles...........*/
+html{
+  box-sizing: border-box;
+}
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+body{
+  background: rgb(153, 51, 102);
+  line-height: 1.5;
+  /*margin: 0;
+  padding: 0;*/
+}
+header{
+  background-color: rgb(3, 163, 223);
+  padding: 20px;
+}
+header img{
+  width: 250px;
+}
+h1{
+  font-family: 'Ruda', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 35px;
+  color: rgb(68, 68, 68);
+  display: block;
+  text-align: center;
+}
+h2{
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+}
+h3{
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+}
+h4{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+p{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+a{
+  color: rgb(236, 183, 34);
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 110%;
+  text-decoration: none;
+}
+a:hover{
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 110%;
+  text-decoration: none;
+}
+.nav-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.nav-item{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+footer{
+  background-image: url("https://raw.githubusercontent.com/UWFront-End-Cert/html100/master/lesson07-styleguide/styleguide%20design%20elements/footerImage.jpg");
+  padding: 20px;
+}
+footer img{
+  width: 200px;
+}
+footer p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+footer a{
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+  /* Home page...........*/
+
+  /* Lessons page...........*/
